@@ -1,0 +1,147 @@
+
+.maindiv{
+	border:3px solid black;
+	width:60%;
+	margin:auto;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom: 2px solid black;
+	width:90%;
+	margin:auto;
+}
+
+.first{
+	font-size:25px;
+	font-weight:bold;
+	text-align: center;
+}
+
+/* .second{
+	margin:20px;
+} */
+.second p{
+	margin:0px;
+}
+
+.image{
+	margin:20px;
+}
+
+.secondmaindiv{
+	
+	width:90%;
+	margin:auto;
+}
+.career{
+	width:90%;
+	margin-auto;
+}
+
+.career h3{
+	background-color: gray;
+}
+
+.three{
+	display:flex;
+	justify-content:space-between;
+}
+
+.two{
+	margin-top:60px;
+}
+
+table, th, td {
+  border: 0.5px solid #CECECE;
+  border-collapse: collapse;
+}
+
+.personal p{
+	margin:0px;
+}
+
+
+ h3{
+	background-color: #CECECE;
+}
+
+
+.second h3{
+	background-color: white;
+}
+
+.two h3{
+	background-color: white;
+}
+
+
+
+
+
+/* Base CSS (already written by you) */
+
+/* Responsive CSS */
+@media (max-width: 1200px) {
+  .maindiv {
+    width: 80%;
+  }
+  .top {
+    width: 95%;
+  }
+  .career {
+    width: 95%;
+  }
+}
+
+@media (max-width: 992px) {
+  .maindiv {
+    width: 90%;
+  }
+  .first {
+    font-size: 22px;
+  }
+  .three {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .first {
+    font-size: 20px;
+    text-align: left;
+  }
+  .image {
+    margin: 10px auto;
+    text-align: center;
+  }
+  table, th, td {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .maindiv {
+    width: 95%;
+    border: none;
+  }
+  .first {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .top {
+    width: 100%;
+  }
+  table, th, td {
+    font-size: 12px;
+  }
+}
